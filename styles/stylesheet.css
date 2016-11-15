@@ -1,0 +1,118 @@
+html{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+}	
+a{
+	text-decoration: none;
+	color: #757575;
+}
+a:hover{
+	text-decoration: underline;
+}
+.navbar{
+	display: inline-flex;
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 150px;
+}
+
+
+td{
+	border: 2px solid #727272;
+	border-radius: 1px;
+	padding: 0
+}
+
+.navbar-alert{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: rgba(0,0,0,.55);
+	margin-left: 20px;
+
+}
+
+.navbar-icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: #C2185B;
+	margin-left: 20px;
+}
+img{
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	display: block;
+	clear: right;
+}
+
+input{
+	width: 45%;
+	max-width: 550px;
+	min-width: 470px;
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border: .01em solid #d9d9d9;
+	font-size: 15px;
+}
+
+div input{
+	width: 150px;
+	max-width: 100%;
+	min-width: 0%;
+	height: 35px;
+	display: inline;
+	margin: 5px;
+	border: 0;
+	font-size: 14px;
+	color: rgba(0,0,0,.55);
+	font-weight: bolder;
+}
+
+div input:hover{
+	color:black; 
+}
+
+
+input:hover{
+	border: .01em solid #ADACAC;
+}
+
+.button{
+	text-align: center;
+	margin-top: 30px;
+}
+.footer{
+	background-color: #f2f2f2;
+	width: 100%;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
+.footer-left{
+	margin-top: auto;
+	margin-left: 25px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	float: left;
+}
+.footer-right{
+	margin-top: auto;
+	margin-right: 25px;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+div a {
+	margin-right:15px; 
+}
